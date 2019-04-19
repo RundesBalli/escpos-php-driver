@@ -5,7 +5,7 @@ A driver for Epson ESC/POS thermal printers written in PHP.
 Include the `/src/driver.php` file in your project.
 The printer is initialized inside the `driver.php` file.
 
-To output some text you have to `echo` your text with the `printer_text('your text here');` function.
+To output some text you have to `echo` your text with the `printer_text('your text here');` function and send it via `netcat` to your printer.
 
 ## Example:
 
@@ -20,7 +20,7 @@ printer_cut();
 ?>
 ```
 
-You need to know the IP-address of your printer and print via `netcat`:
+You need to know the IP-address of your printer and print via `netcat`: <br>
 $ `php print.php | nc ip.of.your.printer 9100 -w 1`
 
 ## Functions:
