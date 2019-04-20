@@ -124,7 +124,7 @@ function printer_wb() {
  * 
  * This function is for setting the different styling options for the output.
  * 
- * @param int	Sets the used font (possible values: 0 and 1)
+ * @param int Sets the used font (possible values: 0 and 1)
  * @param int Sets the font-weight to bold  (possible values: 0 and 1)
  * @param int Sets the font-height twice as high as normal (possible values: 0 and 1)
  * @param int Sets the font-width twice as wide as normal (possible values: 0 and 1)
@@ -207,9 +207,9 @@ function printer_printchars() {
 /**
  * Prints a barcode.
  * 
- * @param int			Height of the barcode in dots.
- * @param int			Barcodetype. See below for types.
- * @param string	Barcodecontent.
+ * @param int    Height of the barcode in dots.
+ * @param in     Barcodetype. See below for types.
+ * @param string Barcodecontent.
  * 
  * Barcodetype:
  * 1: UPC-A
