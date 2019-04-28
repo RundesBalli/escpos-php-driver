@@ -1,5 +1,5 @@
 <?php
-require_once(realpath(__DIR__ . '/..').DIRECTORY_SEPARATOR."src".DIRECTORY_SEPARATOR."driver.php");
+require_once(realpath(__DIR__."/..").DIRECTORY_SEPARATOR."src".DIRECTORY_SEPARATOR."driver.php");
 
 $text = 
 "Type some text here
