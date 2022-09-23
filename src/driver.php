@@ -7,7 +7,7 @@
  * @author    RundesBalli <rundesballi@rundesballi.com>
  * @copyright 2019 RundesBalli
  * @version   1.0.0 - 06. JAN 2019
- * @see       http://content.epson.de/fileadmin/content/files/RSD/downloads/escpos.pdf
+ * @see       https://files.support.epson.com/pdf/general/escp2ref.pdf
  * @see       http://www.asciitable.com/
  * @license   MIT-License
  */
