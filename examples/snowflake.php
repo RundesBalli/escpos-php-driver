@@ -1,5 +1,5 @@
 <?php
-require_once(realpath(__DIR__."/..").DIRECTORY_SEPARATOR."src".DIRECTORY_SEPARATOR."driver.php");
+require_once(realpath(__DIR__."/..").DIRECTORY_SEPARATOR."escpos-driver.php");
 
 //see: https://ascii.co.uk/art/snowflakes No. 6
 $text = 
@@ -14,12 +14,10 @@ __/ /\ \__
 \_\ \/ /_/
 /        \\";
 
-printer_center();
+$printer::setAlignment('center');
+$printer::bold(true);
 
-printer_setmode(0,1,0,0,0);
 foreach (explode("\n", $text) as $val) {
-  echo printer_text($val.PHP_EOL);
+  $printer::text($val);
 }
-printer_feed(2);
-printer_cut();
 ?>
