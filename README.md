@@ -7,7 +7,7 @@ Include the `/escpos-driver.php` file in your project.
 The printer is initialized inside the `escpos-driver.php` file and is useable via the `$printer` variable. It resets itself when the driver is included. At the end the printer feeds two lines and cuts the print.
 
 ## Functions:
-For detailed documentation, please refer to the commented functions in the driver file.
+For detailed documentation, please refer to the [commented functions in the driver file](/escpos-driver.php).
 - `$printer::setAlignment($alignment)` - Sets the text alignment.
   - Possible values are: `left, l, center, c, right, r`
 - `$printer::feed($n)` - Feeds n blank lines.
