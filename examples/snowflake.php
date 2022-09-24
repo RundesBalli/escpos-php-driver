@@ -1,7 +1,11 @@
 <?php
+/**
+ * Snowflake ASCII Art
+ * 
+ * @see https://ascii.co.uk/art/snowflakes
+ */
 require_once(realpath(__DIR__."/..").DIRECTORY_SEPARATOR."escpos-driver.php");
 
-//see: https://ascii.co.uk/art/snowflakes No. 6
 $text = 
 "\__    __/
 /_/ /\ \_\
