@@ -214,6 +214,15 @@ class printer {
   }
 
   /**
+   * Horizontal line
+   * 
+   * @param string $char Character which is repeated the whole line.
+   */
+  public static function horizontalLine(string $char = '-') {
+    echo str_repeat(substr($char, 0, 1), 48);
+  }
+
+  /**
    * Print text
    * 
    * @param string $text The text to be printed.
